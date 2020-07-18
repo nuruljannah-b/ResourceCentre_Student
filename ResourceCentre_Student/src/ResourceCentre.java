@@ -44,7 +44,7 @@ public class ResourceCentre {
 					ResourceCentre.addChromebook(chromebookList, cb);
 
 				} else {
-					System.out.println("Invalid type");
+					System.out.println("Invalid item type!");
 				}
 
 			} else if (option == 3) {
@@ -63,7 +63,7 @@ public class ResourceCentre {
 					// Loan Chromebook
 					ResourceCentre.loanChromebook(chromebookList);
 				} else {
-					System.out.println("Invalid type");
+					System.out.println("Invalid item type!");
 				}
 
 			} else if (option == 4) {
@@ -81,7 +81,7 @@ public class ResourceCentre {
 					// Return Chromebook
 					ResourceCentre.returnChromebook(chromebookList);
 				} else {
-					System.out.println("Invalid type");
+					System.out.println("Invalid item type!");
 				}
 
 			} else if (option == 5) {
