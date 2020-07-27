@@ -73,8 +73,8 @@ public class ResourceCentreTest {
 		//test if the expected output string same as the list of camcorders retrieved from the SourceCentre
 		allCamcorder= ResourceCentre.retrieveAllCamcorder(camcorderList);
 
-		testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0011", "Nikon HDSLR", "Yes", "", 40);
-		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0012", "Sony DSC-RX100M7", "Yes", "", 20);
+		testOutput = String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0011", "Nikon HDSLR", "Yes", "", 50);
+		testOutput += String.format("%-10s %-30s %-10s %-10s %-20d\n","CC0012", "Sony DSC-RX100M7", "Yes", "", 30);
 	
 		assertEquals("Check that ViewAllCamcorderlist", testOutput, allCamcorder);
 		
