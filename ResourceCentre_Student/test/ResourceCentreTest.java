@@ -24,7 +24,7 @@ public class ResourceCentreTest {
 	public void setUp() throws Exception {
 		// prepare test data
 		cc1 = new Camcorder("CC0011", "Nikon HDSLR", 50);
-		cc2 = new Camcorder("CC0012", "Sony DSC-RX100M7", 20);
+		cc2 = new Camcorder("CC0012", "Sony DSC-RX100M7", 30);
 		cb1 = new Chromebook("CB0011", "My Google Chromebook 1st", "Mac OS");
 		cb2 = new Chromebook("CB0012", "SAMSUNG Chromebook 4+", "Win 10");
 
